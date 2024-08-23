@@ -32,7 +32,8 @@ php artisan serve
 ```
 
 ## step 4
-http://127.0.0.1:8000
+Run on your browser
+* http://127.0.0.1:8000
 
 ## step 5
 login with the following email and pwd
