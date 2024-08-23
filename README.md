@@ -33,12 +33,17 @@ php artisan serve
 
 ## step 4
 Run on your browser
-* http://127.0.0.1:8000
+```
+http://127.0.0.1:8000
+```
 
 ## step 5
+
 login with the following email and pwd
-* email - admin@example.com
-* pwd - admin123
+```
+email - admin@example.com
+pwd - admin123
+```
 
 ## note ##
 * member can be created on sign up form
