@@ -37,7 +37,7 @@ onMounted(() => {
 
 const getLinkClass = (path) => {
   const isActive = route.path === path;
-  return `block py-2 px-3 rounded ${isActive ? 'text-white bg-blue-700 md:bg-transparent md:text-blue-700' : 'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700'}`;
+  return `block py-2 px-3 rounded ${isActive ? 'text-white bg-indigo-700 md:bg-transparent md:text-indigo-700' : 'text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white hover:bg-white-100'}`;
 };
 </script>
 
@@ -62,7 +62,7 @@ const getLinkClass = (path) => {
       </div>
       <div class="flex items-center space-x-4">
         <span class="hidden md:block text-gray-900 dark:text-white">Hello {{ userName }}!</span> 
-        <button @click="logout" class="text-blue-700 dark:text-blue-500 hover:underline">
+        <button @click="logout" class="text-indigo-700 dark:text-indigo-500 hover:underline">
           Logout
         </button>
       </div>
