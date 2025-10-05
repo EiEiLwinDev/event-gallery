@@ -1,6 +1,9 @@
 
 # Vue 3 and Laravel 11 Setup Guide
 
+# Tech
+Vue, Laravel, Mysql and Bootstrap
+
 ## Step 1: Change Database Connection
 
 Update your `.env` file with the following database connection settings:
